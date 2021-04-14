@@ -1,0 +1,13 @@
+server:
+  port: 8085
+
+spring:
+  rabbitmq:
+    dynamic: true
+    port: 5672
+    username: guest
+    password: guest
+    host: localhost
+
+  jackson:
+    serialization.FAIL_ON_EMPTY_BEANS: false
